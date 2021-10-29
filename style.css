@@ -13,7 +13,8 @@ body {
 }
 .header__img {
   margin-left: 30px;
-  width: 200px;
+  width: 250px;
+  height: 100px;
 }
 .login {
   background: linear-gradient(#21c08b, #ab88ff);
@@ -125,4 +126,17 @@ body {
 }
 .footer a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .login__container {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 100%;
+  }
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
