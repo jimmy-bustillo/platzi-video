@@ -1,3 +1,5 @@
+$blanco: white;
+
 body {
   margin: 0;
   background-color: #8f57fd;
@@ -35,7 +37,7 @@ ul:hover {
   margin: 10px 0px;
 }
 .header__menu li a {
-  color: white;
+  color: $blanco;
   text-decoration: none;
 }
 .header__menu li a:hover {
@@ -53,23 +55,23 @@ ul:hover {
 }
 .header__menu--profile p {
   margin: 0;
-  color: white;
+  color: $blanco;
 }
 
 .main {
   height: 300px;
 }
 .main__title {
-  color: white;
+  color: $blanco;
   font-size: 25px;
   text-align: center;
 }
 .input {
   display: block;
   margin: 0 auto;
-  border: 2px solid white;
+  border: 2px solid $blanco;
   border-radius: 30px;
-  color: white;
+  color: $blanco;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
   height: 50px;
@@ -79,11 +81,11 @@ ul:hover {
   outline: none;
 }
 ::placeholder {
-  color: white;
+  color: $blanco;
 }
 
 .categories__title {
-  color: white;
+  color: $blanco;
   margin-left: 30px;
 }
 
@@ -145,10 +147,10 @@ ul:hover {
   width: 30px;
 }
 .carrousel-item__details--title {
-  color: white;
+  color: $blanco;
 }
 .carrousel-item__details--subtitle {
-  color: white;
+  color: $blanco;
   font-size: 8px;
 }
 
@@ -159,7 +161,7 @@ ul:hover {
   width: 100%;
 }
 .footer a {
-  color: white;
+  color: $blanco;
   cursor: pointer;
   font-size: 14px;
   padding-left: 30px;
