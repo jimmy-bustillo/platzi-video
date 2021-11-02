@@ -3,7 +3,6 @@ body {
   background-color: #8f57fd;
   font-family: "Mulish", sans-serif;
 }
-
 .header {
   width: 100%;
   height: 80px;
@@ -11,17 +10,14 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
 .header__img {
   width: 200px;
   margin-top: 10px;
   margin-left: 30px;
 }
-
 .header__menu {
   margin-right: 30px;
 }
-
 .header__menu ul {
   display: none;
   list-style: none;
@@ -31,37 +27,30 @@ body {
   text-align: right;
   margin: 0px 0px 0px -14px;
 }
-
 .header__menu:hover ul,
 ul:hover {
   display: block;
 }
-
 .header__menu li {
   margin: 10px 0px;
 }
-
 .header__menu li a {
   color: white;
   text-decoration: none;
 }
-
 .header__menu li a:hover {
   text-decoration: underline;
 }
-
 .header__menu--profile {
   display: flex;
   margin-right: 8px;
   align-items: center;
 }
-
 .header__menu--profile img {
   margin-right: 8px;
   width: 40px;
   height: 40px;
 }
-
 .header__menu--profile p {
   margin: 0;
   color: white;
@@ -70,13 +59,11 @@ ul:hover {
 .main {
   height: 300px;
 }
-
 .main__title {
   color: white;
   font-size: 25px;
   text-align: center;
 }
-
 .input {
   display: block;
   margin: 0 auto;
@@ -91,7 +78,6 @@ ul:hover {
   background-color: rgba(255, 255, 255, 0.1);
   outline: none;
 }
-
 ::placeholder {
   color: white;
 }
@@ -106,13 +92,11 @@ ul:hover {
   padding: 30px;
   position: relative;
 }
-
 .carrousel__container {
   white-space: nowrap;
   margin: 70px 0px;
   padding-bottom: 10px;
 }
-
 .carrousel-item {
   display: inline-block;
   background-color: palevioletred;
@@ -126,28 +110,27 @@ ul:hover {
   transform-origin: center left;
   position: relative;
 }
-
 .carrousel-item:hover ~ .carrousel-item {
   transform: translate3d(100px, 0, 0);
 }
-
 .carrousel__container:hover .carrousel-item {
   opacity: 0.3;
 }
-
 .carrousel__container:hover .carrousel-item:hover {
   transform: scale(1.5);
   opacity: 1;
 }
-
 .carrousel-item__img {
   width: 200px;
   height: 250px;
   object-fit: cover;
 }
-
 .carrousel-item__details {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   font-size: 10px;
   opacity: 0.9;
   transition: 450ms opacity;
@@ -158,15 +141,12 @@ ul:hover {
   right: 0;
   bottom: 0;
 }
-
 .carrousel-item__details--icons > img {
   width: 30px;
 }
-
 .carrousel-item__details--title {
   color: white;
 }
-
 .carrousel-item__details--subtitle {
   color: white;
   font-size: 8px;
@@ -178,7 +158,6 @@ ul:hover {
   height: 100px;
   width: 100%;
 }
-
 .footer a {
   color: white;
   cursor: pointer;
@@ -186,9 +165,6 @@ ul:hover {
   padding-left: 30px;
   text-decoration: none;
 }
-
 .footer a:hover {
   text-decoration: underline;
 }
-
-/*# sourceMappingURL=style.css.map */
